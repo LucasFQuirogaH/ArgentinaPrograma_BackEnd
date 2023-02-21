@@ -22,7 +22,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/explab")
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://lqf-backend.onrender.com")
+//@CrossOrigin(origins = "https://lqf-backend.onrender.com")
+@CrossOrigin(origins = "https://lqf-frontend.web.app")
 public class CExperiencia {
 
     @Autowired

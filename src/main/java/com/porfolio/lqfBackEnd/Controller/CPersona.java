@@ -20,7 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/personas")
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://lqf-backend.onrender.com")
+//@CrossOrigin(origins = "https://lqf-backend.onrender.com")
+@CrossOrigin(origins = "https://lqf-frontend.web.app")
 public class CPersona {
     @Autowired
     private SPersona sPersona;

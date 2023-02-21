@@ -21,7 +21,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 //@CrossOrigin(origins="http://localhost:4200")
-@CrossOrigin(origins="https://lqf-backend.onrender.com")
+//@CrossOrigin(origins="https://lqf-backend.onrender.com")
+@CrossOrigin(origins="https://lqf-frontend.web.app")
 @RequestMapping("/skill")
 public class Chys {
     @Autowired
